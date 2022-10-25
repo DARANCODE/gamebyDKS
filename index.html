@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chơi Game Vui Vẻ Nha Bro</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="ten-file-01.js"></script>
+</head>
+<body> 
+    <!-- <audio controls autoplay>
+        <source src="nhac.mp3" type="audio/ogg">
+        <source src="nhac.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+       -->
+   
+    
+
+
+<script> 
+
+var source = "nhac.mp3"
+ var audio = document.createElement("audio");
+ 
+ audio.autoplay = true;
+ 
+ audio.load()
+ audio.addEventListener("load", function() { 
+     audio.play(); 
+ }, true);
+ audio.src = source;
+</script>
+    
+    <canvas id="canvas"></canvas>
+    <a href="https://facebook.com/daran06" class="full-screen" target="_blank"></a>
+</body>
+
+</html>
